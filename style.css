@@ -1,0 +1,108 @@
+body {
+  /*background-color: #72DDF7;*/
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to top right, #C4F3FF, #004B5E);
+}
+
+h1, h2, h3 {
+  color: #004B5E;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: #247D93;
+  font-weight: 100;
+  text-align: justify;
+  margin: 20px;
+}
+
+a {
+  color: #0096BC;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #003E4D;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.container{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #C4F3FF;
+  overflow: auto;
+}
+
+.card{
+  margin: 20px;
+  padding: 50;
+  background-color: #B3DDE8;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 0px rgba(0,75,94,1);
+  text-align: center;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: #247D93;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #003E4D;
+  color: white;
+}
+
+.fab {
+    font-family: Font Awesome\ 5 Brands;
+    margin: 5;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
